@@ -1,0 +1,52 @@
+*{
+	box-border:border-box;
+}
+h2{
+	text-align: center;
+	font-size: 175%;
+}
+
+@media(min-width: 992px){
+	section{
+		width: 29%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	section{
+		width: 45%;
+	}
+
+	#Shushi{
+		width: 95%;
+	}
+}
+
+section{
+	padding: 0px 0px 10px 10px;
+	border: 2px solid black;
+	position: relative;
+	margin: 10px;
+	background-color: grey;
+	float: left;
+	text-align: left;
+}
+div{
+	float: right;
+	font-style: bold;
+	font-size: 125%;
+	border: 2px solid black;
+	margin: 0px;
+	padding: 2px 2px 2px 2px;
+}
+#Chicken>div{
+	color: black;
+	background-color: purple;
+}
+#Beef>div{
+	color: white;
+	background-color: red;
+}
+#Shushi>div{
+	color: black;
+	background-color: #00a6d5;
+}
